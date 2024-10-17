@@ -10,11 +10,8 @@
     <div class="container">
         <div class="row align-items-center">
 
-    <h1>PickYourKiller.gg</h1>
-    <h2>created by ComradeWeed</h2>
+    <h1>KillerRoulette</h1>
 
-    <p>This is a project created out of boredom and the obsession for Dead by Daylight.</p>
-    
     <div id="image-container">
         <button id="randomImageButton">Pick your killer!</button>
         <div id="image-display"></div>
@@ -24,6 +21,7 @@
 
     </div>
 
+    <!-- JavaScript Teil mithilfe von ChatGPT erstellt -->
     <script>
         function generateRandomNumber(min, max) {
             return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -66,9 +64,6 @@
                 'xenomorph.png',
                 'good guy.png',
                 'unknown.png'
-
-
-                // Füge hier weitere Bild-URLs hinzu
             ];
 
             const randomIndex = generateRandomNumber(0, images.length - 1);
@@ -80,8 +75,6 @@
             imageDisplay.innerHTML = '';  // Vorherige Bilder entfernen
             imageDisplay.appendChild(imgElement);
         }
-
-        // Event Listener für den Button
         document.getElementById('randomImageButton').addEventListener('click', displayRandomImage);
     </script>
 
