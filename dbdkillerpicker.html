@@ -25,6 +25,7 @@
     </div>
 
     <!-- JavaScript (<script>) mithilfe von ChatGPT erstellt -->
+    <!-- JavaScript (<script>) created with ChatGPT -->
 
     <script>
         function generateRandomNumber(min, max) {
@@ -33,52 +34,55 @@
 
         function displayRandomImage() {
             const images = [
-                'trapper.png',
-                'wraith.png',
-                'hillbilly.png',
-                'nurse.png',
-                'huntress.png',
-                'shape.png',
-                'hag.png',
-                'doctor.png',
-                'cannibal.png',
-                'nightmare.png',
-                'pig.png',
-                'clown.png',
-                'spirit.png',
-                'legion.png',
-                'plague.png',
-                'ghost face.png',
-                'demogorgon.png',
-                'oni.png',
-                'deathslinger.png',
-                'executioner.png',
-                'blight.png',
-                'twins.png',
-                'trickster.png',
-                'nemesis.png',
-                'cenobite.png',
-                'artist.png',
-                'onryo.png',
-                'dredge.png',
-                'mastermind.png',
-                'knight.png',
-                'skull merchant.png',
-                'singularity.png',
-                'xenomorph.png',
-                'good guy.png',
-                'unknown.png'
+                'img/01_trapper.png',
+                'img/02_wraith.png',
+                'img/03_hillbilly.png',
+                'img/04_nurse.png',
+                'img/05_shape.png',
+                'img/06_hag.png',
+                'img/07_doctor.png',
+                'img/08_huntress.png',
+                'img/09_cannibal.png',
+                'img/10_nightmare.png',
+                'img/11_pig.png',
+                'img/12_clown.png',
+                'img/13_spirit.png',
+                'img/14_legion.png',
+                'img/15_plague.png',
+                'img/16_ghost_face.png',
+                'img/17_demogorgon.png',
+                'img/18_oni.png',
+                'img/19_deathslinger.png',
+                'img/20_executioner.png',
+                'img/21_blight.png',
+                'img/22_twins.png',
+                'img/23_trickster.png',
+                'img/24_nemesis.png',
+                'img/25_cenobite.png',
+                'img/26_artist.png',
+                'img/27_onryo.png',
+                'img/28_dredge.png',
+                'img/29_mastermind.png',
+                'img/30_knight.png',
+                'img/31_skull_merchant.png',
+                'img/32_singularity.png',
+                'img/33_xenomorph.png',
+                'img/34_good_guy.png',
+                'img/35_unknown.png',
+                'img/36_lich.png',
+                'img/37_dark_lord.png'
             ];
 
             const randomIndex = generateRandomNumber(0, images.length - 1);
             const imgElement = document.createElement('img');
             imgElement.src = images[randomIndex];
-            imgElement.alt = 'Zufälliges Bild';
+            imgElement.alt = 'Random Killer';
 
             const imageDisplay = document.getElementById('image-display');
             imageDisplay.innerHTML = '';
             imageDisplay.appendChild(imgElement);
         }
+
         document.getElementById('randomImageButton').addEventListener('click', displayRandomImage);
     </script>
 
