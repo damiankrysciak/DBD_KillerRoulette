@@ -70,7 +70,7 @@
     <br>
 <div class="row">
     <div class="col-6">
-        <h5>Select the killers, you don't want to show up or just press the button to get your random killer!</h5>
+        <h4>Select the killers, you don't want to show up or just press the button to get your random killer!</h4><br>
         <form method="POST">
             <div class="checkbox-grid">
                 <div class="form-check">
@@ -226,6 +226,7 @@
                     <label class="form-check-label" for="check37">Houndmaster</label>
                 </div>
             </div>
+            <br>
             <button type="submit" class="btn btn-primary mt-3">Randomize!</button>
         </form>
 
@@ -235,7 +236,7 @@
 
     <div class="col-6">
 
-        <div id="result-container">
+        <div class="container border" id="result-container">
             <?php
             if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 include 'php/randomizer.php';
