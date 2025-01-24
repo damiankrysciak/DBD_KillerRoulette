@@ -1,4 +1,4 @@
-![Screenshot 2025-01-24 124312](https://github.com/user-attachments/assets/91d36b7f-036c-4a5d-968e-d547e3b09378)
+![Screenshot 2025-01-24 125019](https://github.com/user-attachments/assets/5a13b6a7-8348-4391-b1d8-b8c97dc3ce02)
 
 img: contains portait pictures of each killer (all rights belong to Behaviour Interactive as it is thier porperty respectfully)
 
