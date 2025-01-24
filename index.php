@@ -70,7 +70,7 @@
     <br>
 <div class="row">
     <div class="col-6">
-
+        <h5>Select the killers, you don't want to show up or just press the button to get your random killer!</h5>
         <form method="POST">
             <div class="checkbox-grid">
                 <div class="form-check">
@@ -135,7 +135,7 @@
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" name="auswahl[]" value="Ghost_Face" id="15">
-                    <label class="form-check-label" for="check15">Ghost_Face</label>
+                    <label class="form-check-label" for="check15">Ghost Face</label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" name="auswahl[]" value="Demogorgon" id="16">
@@ -195,7 +195,7 @@
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" name="auswahl[]" value="Skull_Merchant" id="30">
-                    <label class="form-check-label" for="check30">Skull_Merchant</label>
+                    <label class="form-check-label" for="check30">Skull Merchant</label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" name="auswahl[]" value="Singularity" id="31">
@@ -207,7 +207,7 @@
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" name="auswahl[]" value="Good_Guy" id="33">
-                    <label class="form-check-label" for="check33">Good_Guy</label>
+                    <label class="form-check-label" for="check33">Good Guy</label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" name="auswahl[]" value="Unknown" id="34">
@@ -219,14 +219,14 @@
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" name="auswahl[]" value="Dark_Lord" id="36">
-                    <label class="form-check-label" for="check36">Dark_Lord</label>
+                    <label class="form-check-label" for="check36">Dark Lord</label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" name="auswahl[]" value="Houndmaster" id="37">
                     <label class="form-check-label" for="check37">Houndmaster</label>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary mt-3">Absenden</button>
+            <button type="submit" class="btn btn-primary mt-3">Randomize!</button>
         </form>
 
         <br>
